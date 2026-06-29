@@ -12,10 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SocialNetWork">
         <activity
-            android:name=".login.view.register.view.RegisterActivity"
+            android:name=".login.view.login.view.LoginActivity"
+
             android:exported="false" />
         <activity
-            android:name=".login.view.login.view.LoginActivity"
+            android:name=".login.view.register.view.RegisterActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
