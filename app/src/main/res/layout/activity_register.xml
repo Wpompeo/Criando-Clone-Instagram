@@ -7,12 +7,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".login.view.register.view.RegisterActivity">
-    
+
     <fragment
         android:id="@+id/register_fragment"
+        android:name="com.wts.socialnetwork.login.view.register.view.RegisterWelcomeFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout="@layout/fragment_register_name_password"
-        android:name="com.wts.socialnetwork.login.view.register.view.RegisterNamePasswordFragment"/>
+        tools:layout="@layout/fragment_register_welcome" />
 
 </LinearLayout>

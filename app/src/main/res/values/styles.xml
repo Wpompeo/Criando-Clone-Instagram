@@ -44,8 +44,12 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
 
+    </style>
 
-
+    <!--Style para theme TextView, inherit color and position from the down button -->
+    <style name="Theme.SocialNetWork.TextViewBase.Form">
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginBottom">24dp</item>
     </style>
 
 
